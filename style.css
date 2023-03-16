@@ -21,19 +21,19 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 380px;
-  height: 560px;
+  width: 360px;
+  height: 520px;
   background-color: hsl(0, 0%, 100%);
   border-radius: 30px;
 }
 
 .img__container {
-  margin: 20px 10px;
+  margin: 20px 10px 10px;
   border-radius: 30px;
 }
 
 .qr-img {
-  width: 340px;
+  width: 320px;
   border-radius: 20px;
 }
 
@@ -45,10 +45,12 @@ body {
 h1 {
   font-size: 30px;
   margin: 0 20px;
+  font-size: 25px;
+  color: hsl(218, 44%, 22%);
 }
 
 p {
-  margin: 10px 50px;
+  margin: 10px 40px;
   padding: 0 20px;
   font-size: 15px;
   color: hsl(220, 15%, 55%);
